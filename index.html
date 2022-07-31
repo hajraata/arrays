@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Functions</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Arrays</h1>
+      <div>
+        <h3>Enter multiple values (numbers only) separataed by commas below:</h3>
+        <form id="main-form">
+        <input
+        type="text"
+          id="array-input"
+          placeholder="For example: 1,2,3,4"
+          value=""
+        ></input>
+        <button id="btn-array-submit" type="submit">Enter</button>
+    </form>
+    <div id="arrays" hidden>
+    <p id="array-display"></p>
+    <p id="length-display"></p>
+    <form id="option-form" hidden>
+      <input type="text" id="option-input"></input>
+      <button id="btn-option-submit" type="submit">Enter</button>
+    </form>
+       <p id="result-display"></p>
+      </div>
+      </div>
+      <div class="btn-div">
+        <button id="btn-remove-first">Remove first value</button>
+        <button id="btn-remove-last">Remove last value</button>
+        <button id="btn-find-index">Find index of first occurance of a certain value</button>
+        <button id="btn-contains">Check if array has a certain value</button>
+        <button id="btn-array-length">Check array length</button>
+        <button id="btn-remove-value">Remove a certain value</button>
+        <button id="btn-multiply">Multiply each value by a certain number</button>
+      </div>
+    </div>
+  </body>
+  
+</html>
